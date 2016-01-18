@@ -1,8 +1,5 @@
 Feature: code-breaker submits guess
 
-  The code-breaker submits a guess of four numbers.
-  The game marks the guess with + and - signs.
-
   As a code-breaker
   I want to submit a guess
   So that I can try to break the code
