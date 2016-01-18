@@ -8,3 +8,8 @@ Feature: code-breaker submits guess
     Given the secret code if "1234"
     When I guess "1234"
     Then the mark should be "++++"
+
+  Scenario: 2 exact matches and 2 number matches
+    Given the secret code if "1234"
+    When I guess "1234"
+    Then the mark should be "++--"
