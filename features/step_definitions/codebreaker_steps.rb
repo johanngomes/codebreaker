@@ -8,7 +8,7 @@ class Output
   end
 end
 
-def output
+def init_output
   @output ||= Output.new
 end
 
@@ -16,12 +16,12 @@ Given(/^I am not yet playing$/) do
 end
 
 When(/^I start a new game$/) do
-  Codebreaker::Game.new(output)
+  game = Codebreaker::Game.new(init_output)
   game.start
 end
 
 Then(/^I should see "([^"]*)"$/) do |message|
-  expect(output.messages).to include(message)
+  expect(init_output.messages).to include message
 end
 
 Given(/^the secret code is "([^"]*)"$/) do |arg1|
