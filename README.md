@@ -10,6 +10,6 @@ For each number in the guess that matches the number but not the position of a n
 
 **Requires:**
 
-*ruby 2.1.6
-*cucumber 2.3.0
-*rspec 3.4.1
+* ruby 2.1.6
+* cucumber 2.3.0
+* rspec 3.4.1
