@@ -1,5 +1,3 @@
-# codebreaker
-
 ![](/logo.jpeg)
 
 Implementation of the codebreaker game, described in The RSpec Book.
