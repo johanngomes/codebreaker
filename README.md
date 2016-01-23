@@ -13,3 +13,11 @@ For each number in the guess that matches the number but not the position of a n
 * ruby 2.1.6
 * cucumber 2.3.0
 * rspec 3.4.1
+
+**How to start playing?**
+
+Go to the bin folder and run the codebreaker file through ruby, using the following command:
+
+```
+ruby codebreaker
+```
