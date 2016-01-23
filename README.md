@@ -8,6 +8,8 @@ For each number in the guess that matches the number and position of a number in
 
 For each number in the guess that matches the number but not the position of a number in the secret code, the mark includes one - sign.
 
+Each position in the secret code can only be matched once. For example, a guess of 1134, against a secret code of 1234 would get three plus signs: one for each of the matches in the first, third and fourth positions. The number match in the second position would be ignored.
+
 **Requires:**
 
 * ruby 2.1.6
