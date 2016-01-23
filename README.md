@@ -1,5 +1,7 @@
 # codebreaker
 
+![](/logo.jpeg)
+
 Implementation of the codebreaker game, described in The RSpec Book.
 
 In a summary, the player submits a guess of four numbers. The game marks the guess with + and - signs.
